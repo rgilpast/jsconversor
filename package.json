@@ -1,0 +1,37 @@
+{
+  "name": "jsconversor",
+  "version": "0.1.0",
+  "description": "generic conversor between several measurement units of weight, length, volume,...",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist/",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgilpast/jsconversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "js",
+    "units",
+    "weight",
+    "length",
+    "volume"
+  ],
+  "author": "Rafael Gil <rgilpast@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgilpast/jsconversor/issues"
+  },
+  "homepage": "https://github.com/rgilpast/jsconversor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0"
+  }
+}
